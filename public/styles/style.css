@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* with css reset */
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 10px;
+    border-spacing: initial;
+}
+
+tr:first-child td {
+    border-top-color: black;
+}
+
+tr:nth-child(3n) td {
+    border-bottom-color: black;
+}
+
+td {
+    border: 1px solid lightgrey;
+    height: 40px;
+    width: 40px;
+}
+
+td:first-child {
+    border-left-color: black;
+}
+
+td:nth-child(3n) {
+    border-right-color: black;
+}
+
+input {
+    padding: 0;
+    text-align: center;
+    border: 0;
+    height: 40px;
+    width: 40px;
+}
+
+input:hover {
+    background: #ffffff;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}
+
+#time {
+    padding-left: 9%;
+}
+
+#time.success {
+    color: green;
+}
+
+#time.failed {
+    color: red;
+}
+
+input:disabled {
+    background-color: antiquewhite;
+}
